@@ -1,0 +1,14 @@
+version 1.0 
+I cover the softwares needed and how to set your very first server.
+SUMMARY:
+1-Softwares needed
+https://nodejs.org/en/download/
+https://notepad-plus-plus.org/
+2-Library needed
+npm install express
+npm install socket.io
+3-Project Folder Structure
+4-URL Domain, Port and Query
+5-File communication vs Package communication
+6-Setting up server
+
