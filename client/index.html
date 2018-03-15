@@ -7,9 +7,10 @@
 
 <!--<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>-->
 <div id="gameDiv" style="display:none;">
-	<canvas id="ctx" width="500" height="500" style="border:1px solid #000000;"></canvas>
+	<canvas id="ctx" width="500" height="500" style="position:absolute;left:8px;top:8px;border:1px solid #000000;"></canvas>
+	<canvas id="ctx-ui" width="500" height="500" style="position:absolute;left:8px;top:8px;border:1px solid #000000;"></canvas>
 
-	<div id="chat-text" style="width:500px;height:100px;overflow-y:scroll">
+	<div id="chat-text" style="width:500px;margin-top:500px;height:100px;overflow-y:scroll">
 		<div>Hello!</div>
 	</div>
 
@@ -88,7 +89,8 @@
 	Img.map['forest'].src = '/client/img/map2.png';
 	
 	var ctx = document.getElementById("ctx").getContext("2d");
-	ctx.font = '30px Arial';
+	var ctxUi = document.getElementById("ctx-ui").getContext("2d");
+	ctxUi.font = '30px Arial';
 	
 	var Player = function(initPack){
 		var self = {};
@@ -228,9 +230,13 @@
 	}
 	
 	var drawScore = function(){
-		ctx.fillStyle = 'white';
-		ctx.fillText(Player.list[selfId].score,0,30);
+		if(lastScore === Player.list[selfId].score)
+			return;
+		lastScore = Player.list[selfId].score;
+		ctxUi.fillStyle = 'white';
+		ctxUi.fillText(Player.list[selfId].score,0,30);
 	}
+	var lastScore = null;
 	
 	document.onkeydown = function(event){
 		if(event.keyCode === 68)	//d
@@ -266,7 +272,6 @@
 		var angle = Math.atan2(y,x) / Math.PI * 180;
 		socket.emit('keyPress',{inputId:'mouseAngle',state:angle});
 	}
-	
 	
 	
 	
