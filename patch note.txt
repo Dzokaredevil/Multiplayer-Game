@@ -1,4 +1,4 @@
-version 1.0 
+Version 1 Setup & Sending Files 
 I cover the softwares needed and how to set your very first server.
 SUMMARY:
 1-Softwares needed
@@ -12,3 +12,55 @@ npm install socket.io
 5-File communication vs Package communication
 6-Setting up server
 
+Version 2 WebSocket Communication
+Use the WebSocket library socket.io for server-client communication.
+
+Version 3 Handling Multiple WebSocket Connections
+
+Version 4 Keyboard Interactivity
+
+Version 5 OOP & Bullets
+I add object-oriented programming and I add bullets.
+
+Version 6 Chat & Debug Server
+Create a chat and debug the server.
+
+Version 7 Player Attacks
+
+Version 8 Login System
+
+Version 9 MongoDB Database
+
+Version 10 Client State
+
+Version 11 Player Vs Player
+
+Version 12 Polishing and Map
+Summary:
+-New map transition
+-New interfaces
+-Two new quests
+-New fame system
+-New dungeon system
+-New task system
+-New pet system
+-Able to level up abilities
+-Now using WebGL and Typescript
+-Dynamic player sprite.
+
+
+Version 13 Hosting my Game Online
+
+Version 14 Map System
+
+Version 15 Performance Profiling
+
+Version 16 User Interface & Player Commands
+
+Version 17 Improve Chat and Private Messages
+
+Version 18 Inventory & Multi Files
+
+Version 19 Item System
+
+Version 20 Save Player Progress 
