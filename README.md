@@ -14,13 +14,13 @@ https://notepad-plus-plus.org/
 npm install express 
 npm install socket.io
 
-3)Project Folder Structure
+3) Project Folder Structure
 
-4)URL Domain, Port and Query
+4) URL Domain, Port and Query
 
-5)File communication vs Package communication
+5) File communication vs Package communication
 
-6)Setting up server
+6) Setting up server
 
 Version 2 WebSocket Communication.
 Use the WebSocket library socket.io for server-client communication.
