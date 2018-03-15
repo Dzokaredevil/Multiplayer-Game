@@ -4,7 +4,7 @@ This is a project for course Grid & CLoud.
 
 # Copy patch_note.txt - updates
 Version 1 Setup & Sending Files 
-I cover the softwares needed and how to set your very first server.
+
 SUMMARY:
 1-Softwares needed
 https://nodejs.org/en/download/
