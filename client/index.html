@@ -99,7 +99,7 @@
 		socket.emit('changeMap');
 	}
 	
-	var inventory = new Inventory(null);
+	var inventory = new Inventory(socket,false);
 	socket.on('updateInventory',function(items){
 		inventory.items = items;
 		inventory.refreshRender();
@@ -309,6 +309,7 @@
 	document.oncontextmenu = function(event){
 		event.preventDefault();
 	}
+	
 	
 	
 </script>
