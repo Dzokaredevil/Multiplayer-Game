@@ -6,7 +6,7 @@ This is a project for course Grid & CLoud.
 Version 1 Setup & Sending Files. 
 
 SUMMARY:
-1) Softwares needed
+1) Softwares used
 https://nodejs.org/en/download/ 
 https://notepad-plus-plus.org/
 
