@@ -7,10 +7,12 @@ Version 1 Setup & Sending Files.
 
 SUMMARY:
 1) Softwares used
+
 https://nodejs.org/en/download/ 
 https://notepad-plus-plus.org/
 
-2) Library needed
+2) Library used
+
 npm install express 
 npm install socket.io
 
