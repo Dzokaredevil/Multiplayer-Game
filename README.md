@@ -9,11 +9,13 @@ SUMMARY:
 1) Softwares used
 
 https://nodejs.org/en/download/ 
+
 https://notepad-plus-plus.org/
 
 2) Library used
 
 npm install express 
+
 npm install socket.io
 
 3) Project Folder Structure
