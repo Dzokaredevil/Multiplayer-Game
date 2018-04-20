@@ -9,13 +9,13 @@ Run the server:
 
 .. code-block:: command prompt
 
-  C:\(path)\bin>mongod
+  C:\\(path)\bin>mongod
   
 Run the Node.js server:
 ----------
 open terminal, for example in Visual Studio
 
-  PS C:\(path)\project> node app
+  PS C:\\(path)\project> node app
 
 good answer is "Server started".
 
