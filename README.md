@@ -1,8 +1,29 @@
 # Multiplayer-Game
+----------
 
 This is a project for course Grid & CLoud.
 
+How to use
+----------
+Run the server:
+
+.. code-block:: command prompt
+
+  C:\(path)\bin>mongod
+  
+Run the Node.js server:
+----------
+open terminal, for example in Visual Studio
+
+  PS C:\(path)\project> node app
+
+good answer is "Server started".
+
+Then you can login on game and start to play game!
+
+
 # Copy patch_note.txt - updates
+----------
 Version 1 Setup & Sending Files. 
 
 SUMMARY:
